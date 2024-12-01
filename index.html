@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos Posto</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Posto Shell</h1>
+        <h3>Beraldo alto Posto <br> Preços:</h3>
+        <div class="lados">            
+            <p class="text">Gasolina: 7.29 <br> Gasolina Adtivada: 8.08 <br> Alcool: 5.49 <br> Alcool Adtivado: 6.29</p>
+            <p class="text">gasolina_pix: 5.99 <br> gasolina_adtivada_pix: 7.29 <br> alcool_pix: 3.99 <br> alcool_adtivado_pix: 5.29</p>
+        </div>
+        <div class="form_litros">
+            <label for="Litros">Litros: <input type="text" id="Litros"></label>
+            <button onclick="calcular_litros()">Calcular</button>
+            <div class="result_litros">
+                <p>Gasolina: <span id="Gasolina_litros"></span></p>
+                <p>Gasolina Adtivada: <span id="Gasolina_adtivada_litros"></span></p>
+                <p>Alcool: <span id="Alcool_litros"></span></p>
+                <p>Alcool Adtivado: <span id="Alcool_adtivado_litros"></span></p>
+            </div>
+            <hr>
+            <div class="litros_pix">
+                <p>Gasolina Pix: <span id="Gasolina_pix_litros"></span></p>
+                <p>Gasolina Adtivada Pix: <span id="Gasolina_adtivada_pix_litros"></span></p>
+                <p>Alcool Pix: <span id="Alcool_pix_litros"></span></p>
+                <p>Alcool Adtivado Pix: <span id="Alcool_adtivado_pix_litros"></span></p>
+            </div>
+        </div>
+
+        <div class="form">
+            <label for="valor">Valor:</label>
+            <input type="text" id="valor" name="valor">
+            <button onclick="calcular()">Calcular</button>
+            <div class="result">
+                <p>Gasolina: <span id="gasolina"></span></p>
+                <p>Gasolina Adtivada: <span id="gasolina_adtivada"></span></p>
+                <p>Alcool: <span id="alcool"></span></p>
+                <p>Alcool Adtivado: <span id="alcool_adtivado"></span></p>
+            </div>
+
+            <hr>
+
+            <div class="result_pix">
+                <p>Gasolina Pix: <span id="Gasolina_pix"></span></p>
+                <p>Gasolina Adtivada Pix: <span id="Gasolina_adtivada_pix"></span></p>
+                <p>Alcool Pix: <span id="Alcool_pix"></span></p>
+                <p>Alcool Adtivado Pix: <span id="Alcool_adtivado_pix"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
