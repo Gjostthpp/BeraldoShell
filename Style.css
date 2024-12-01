@@ -135,8 +135,3 @@ span {
     font-size: 15px;
     color: black;
 }
-
-.lados {
-    display: flex;
-    justify-content: space-between;
-}
