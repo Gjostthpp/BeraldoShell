@@ -84,7 +84,7 @@ input[type="text"] {
     box-shadow: 0 0 10px red;
     border: 1px solid black;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
 }
 
@@ -128,7 +128,7 @@ span {
     box-shadow: 0 0 10px red;
     border: 1px solid black;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     margin-bottom: 10px;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
