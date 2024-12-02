@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <img src="logo.jpeg" alt="">
     <div class="container">
-        
         <h1 class="title">Posto Shell</h1>
         <h3>Beraldo auto Posto <br> Preços:</h3>
         <div> 
             <h3>Valor Bomba</h3>          
-            <p class="text">Gasolina: 7.29 <br> Gasolina Adtivada: 8.08 <br> Alcool: 5.49 <br> Alcool Adtivado: 6.29</p>
-            <h3>Precos Pix</h3>
+            <p class="text">Gasolina: 7.29 <br> Gasolina Adtivada: 8.09 <br> Alcool: 5.49 <br> Alcool Adtivado: 6.29</p>
+            <h3>Preços Pix</h3>
             <p class="text">gasolina_pix: 5.99 <br> gasolina_adtivada_pix: 7.29 <br> alcool_pix: 3.99 <br> alcool_adtivado_pix: 5.29</p>
         </div>
         <div class="form_litros">
-            <label for="Litros">Litros: <input type="text" id="Litros"></label>
+            <label for="Litros">Litros: <input type="text" id="Litros" name="Litros" placeholder="Digite o valor em litros"></label>
             <button onclick="calcular_litros()">Calcular</button>
             <div class="result_litros">
                 <p>Gasolina: <span id="Gasolina_litros"></span></p>
@@ -37,7 +37,7 @@
 
         <div class="form">
             <label for="valor">Valor:</label>
-            <input type="text" id="valor" name="valor">
+            <input type="text" id="valor" name="valor" placeholder="Digite o valor em reais">
             <button onclick="calcular()">Calcular</button>
             <div class="result">
                 <p>Gasolina: <span id="gasolina"></span></p>
