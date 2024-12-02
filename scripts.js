@@ -15,7 +15,7 @@ function calcular(){
 
     var gasolina = 7.29;
     var alcool = 5.49;
-    var gasolina_adtivada = 8.08;
+    var gasolina_adtivada = 8.09;
     var alcool_adtivado = 6.29;
     var gasolinaTotal = valor / gasolina;
     var alcoolTotal = valor / alcool;
@@ -29,7 +29,7 @@ function calcular(){
 function calcular_litros(){
     var litros = document.getElementById("Litros").value;
     var gasolina_litros = 7.29;
-    var gasolina_adtivada_litros = 8.08;
+    var gasolina_adtivada_litros = 8.09;
     var alcool_litros = 5.49;
     var alcool_adtivado_litros = 6.29;
     var gasolina_litrosTotal = litros * gasolina_litros;
