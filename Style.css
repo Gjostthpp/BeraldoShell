@@ -145,7 +145,7 @@ hr {
     margin-bottom: 20px;
     padding: 10px;
     background-color: darkgray;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px red, 0 0 20px yellow;
     border: 1px solid black;
     border-radius: 5px;
     width: 90%;
