@@ -1,9 +1,9 @@
 function calcular(){
     var valor = document.getElementById("valor").value;
-    var gasolina_pix = 5.99;
-    var alcool_pix = 3.99;
-    var gasolina_adtivada_pix = 7.29;
-    var alcool_adtivado_pix = 5.29;
+    var gasolina_pix = 6.09;
+    var alcool_pix = 4.19;
+    var gasolina_adtivada_pix = 7.09;
+    var alcool_adtivado_pix = 5.19;
     var gasolina_pixTotal = valor / gasolina_pix;
     var alcool_pixTotal = valor / alcool_pix;
     var gasolina_adtivada_pixTotal = valor / gasolina_adtivada_pix;
@@ -13,10 +13,10 @@ function calcular(){
     document.getElementById("Gasolina_adtivada_pix").innerHTML = gasolina_adtivada_pixTotal.toFixed(2);
     document.getElementById("Alcool_adtivado_pix").innerHTML = alcool_adtivado_pixTotal.toFixed(2);
 
-    var gasolina = 7.29;
-    var alcool = 5.49;
-    var gasolina_adtivada = 8.09;
-    var alcool_adtivado = 6.29;
+    var gasolina = 7.59;
+    var alcool = 5.79;
+    var gasolina_adtivada = 8.39;
+    var alcool_adtivado = 6.79;
     var gasolinaTotal = valor / gasolina;
     var alcoolTotal = valor / alcool;
     var gasolina_adtivadaTotal = valor / gasolina_adtivada;
@@ -28,10 +28,10 @@ function calcular(){
 }
 function calcular_litros(){
     var litros = document.getElementById("Litros").value;
-    var gasolina_litros = 7.29;
-    var gasolina_adtivada_litros = 8.09;
-    var alcool_litros = 5.49;
-    var alcool_adtivado_litros = 6.29;
+    var gasolina_litros = 7.59;
+    var gasolina_adtivada_litros = 8.39;
+    var alcool_litros = 5.79;
+    var alcool_adtivado_litros = 6.79;
     var gasolina_litrosTotal = litros * gasolina_litros;
     var gasolina_adtivada_litrosTotal = litros * gasolina_adtivada_litros;
     var alcool_litrosTotal = litros * alcool_litros;
@@ -41,10 +41,10 @@ function calcular_litros(){
     document.getElementById("Alcool_litros").innerHTML = alcool_litrosTotal.toFixed(2);
     document.getElementById("Alcool_adtivado_litros").innerHTML = alcool_adtivado_litrosTotal.toFixed(2);
     
-    var gasolina_pix_litros = 5.99;
-    var gasolina_adtivada_pix_litros = 7.29;
-    var alcool_pix_litros = 3.99;
-    var alcool_adtivado_pix_litros = 5.29;
+    var gasolina_pix_litros = 6.09;
+    var gasolina_adtivada_pix_litros = 7.09;
+    var alcool_pix_litros = 4.19;
+    var alcool_adtivado_pix_litros = 5.19;
     var gasolina_pix_litrosTotal = litros * gasolina_pix_litros;
     var gasolina_adtivada_pix_litrosTotal = litros * gasolina_adtivada_pix_litros;
     var alcool_pix_litrosTotal = litros * alcool_pix_litros;
